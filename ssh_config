@@ -1,4 +1,4 @@
 Host *
-StrictHostKeyCheckin no
+StrictHostKeyChecking no
 IdentityFile ~/.ssh/id_rsa
 IdentitiesOnly yes
