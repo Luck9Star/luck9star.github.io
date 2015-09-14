@@ -1,0 +1,28 @@
+branches:
+  only:
+  - blog
+
+language: node_js
+
+node_js:
+- '0.12'
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_b69137d15df0_key -iv $encrypted_b69137d15df0_iv
+  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+# - cp ssh_config ~/.ssh/config
+- git config --global user.name "luck9star"
+- git config --global user.email hadyenvip@gmail.com
+
+install:
+- npm install hexo-cli -g
+- npm install hexo --save
+- npm install
+
+script:
+- hexo clean
+- hexo g
+- hexo d
