@@ -101,7 +101,7 @@ markdown:
     collisionSuffix: 'v'
     permalink: true
     permalinkClass: header-anchor
-    permalinkSymbol: ¶
+    permalinkSymbol: ∮
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
