@@ -3,6 +3,10 @@ permalink: dockerzi-dong-gou-jian
 id: 3
 updated: '2015-09-11 10:35:36'
 date: 2015-08-05 15:39:36
+tags:
+- Docker
+- Ghost
+categories: Docker
 ---
 
 ![](http://7xkv17.com1.z0.glb.clouddn.com/image/1/cd/f77c151ddfafb60093de14b907eee.jpg)

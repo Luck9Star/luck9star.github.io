@@ -3,6 +3,11 @@ permalink: vultr
 id: 9
 updated: '2015-08-18 16:16:50'
 date: 2015-08-18 13:55:39
+tags:
+- Vultr
+- 优惠
+- VPS
+categories: VPS
 ---
 
 <a href="https://www.vultr.com/?ref=6844974"><img src="https://www.vultr.com/media/728x90_01.gif" width="728" height="90"></a>

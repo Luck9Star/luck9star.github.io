@@ -3,6 +3,8 @@ permalink: hello-world
 id: 2
 updated: '2015-08-11 17:52:04'
 date: 2015-08-03 16:40:25
+tags:
+categories: 日志
 ---
 
 又一次开始折腾博客，改Ghost来实现。
