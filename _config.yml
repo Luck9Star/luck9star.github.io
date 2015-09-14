@@ -81,10 +81,6 @@ path: sitemap.xml
 baidusitemap:
 path: baidusitemap.xml
 
-archive_generator:
-  per_page: 20
-  yearly: true
-  monthly: true
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
