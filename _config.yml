@@ -73,7 +73,7 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: yilia
 
-
+disqus_shortname: luck9star
 
 #sitemap
 sitemap:
