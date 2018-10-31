@@ -5,7 +5,7 @@ branches:
 language: node_js
 
 node_js:
-- '11.0.0'
+- stable
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_b69137d15df0_key -iv $encrypted_b69137d15df0_iv
@@ -24,5 +24,8 @@ install:
 
 script:
 - hexo clean
-- hexo d -g
+- hexo generate
 # - hexo d
+after_script:
+- sed -i "s/github_token/${GITHUB_TOKEN}/g" ./_config.yml
+- hexo d

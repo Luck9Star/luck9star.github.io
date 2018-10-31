@@ -126,8 +126,5 @@ markdown:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:Luck9Star/luck9star.github.io.git
+  repo: https://github_token@github.com/Luck9Star/luck9star.github.io.git
   branch: master
-- type: git
-  repo: git@gitcafe.com:LuckyStar/LuckyStar.git
-  branch: gitcafe-pages
