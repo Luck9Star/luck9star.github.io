@@ -1,12 +1,14 @@
+---
 title: 在Docker上自动构建中文的Ghost镜像
 permalink: dockerzi-dong-gou-jian
 id: 3
 updated: '2015-09-11 10:35:36'
-date: 2015-08-05 15:39:36
 tags:
-- Docker
-- Ghost
+  - Docker
+  - Ghost
 categories: Docker
+abbrlink: 58299
+date: 2015-08-05 15:39:36
 ---
 
 ![](http://7xkv17.com1.z0.glb.clouddn.com/image/1/cd/f77c151ddfafb60093de14b907eee.jpg)

@@ -1,13 +1,15 @@
+---
 title: 在Docker中使用nginx代理提高Ghost性能
 permalink: zai-dockershi-yong-nginxdai-li-ti-gao-ghostxing-neng
 id: 4
 updated: '2015-08-25 12:45:48'
-date: 2015-08-12 10:59:30
 tags:
-- Docker
-- Ghost
-- NGINX
+  - Docker
+  - Ghost
+  - NGINX
 categories: Docker
+abbrlink: 23413
+date: 2015-08-12 10:59:30
 ---
 
 > 前几天看到了[High Performance Ghost Configuration with NGINX](http://pnommensen.com/2014/09/07/high-performance-ghost-configuration-with-nginx/) 就想到了在Docker中使用NGINX链接Ghost，并且缓存部分内容。

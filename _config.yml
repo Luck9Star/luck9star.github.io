@@ -13,10 +13,10 @@ keywords: "iOS, Docker, Swift, 开发, 程序"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hexo.1tian.me
+url: http://blog.1tian.me
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
 
 # Directory
 source_dir: source
@@ -72,15 +72,33 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yilia
+theme: next
 
 disqus_shortname: luck9star
 
 #sitemap
 sitemap:
-path: sitemap.xml
-baidusitemap:
-path: baidusitemap.xml
+  path: sitemap.xml
+
+lazyload:
+  enable: true
+
+index_generator_plus:
+  path: ''
+  per_page: 10
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
+  awl: 4
+  wpm: 275
+
+permalink: posts/:abbrlink/
 
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki

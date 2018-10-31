@@ -1,13 +1,15 @@
+---
 title: 阿里云ECS与Vultr跑分对比
 permalink: a-li-yun-yu-vultrpao-fen-dui-bi
 id: 11
 updated: '2015-08-25 12:39:09'
-date: 2015-08-25 12:13:21
 tags:
-- 阿里云
-- Vultr
-- VPS
+  - 阿里云
+  - Vultr
+  - VPS
 categories: VPS
+abbrlink: 44116
+date: 2015-08-25 12:13:21
 ---
 
 同为1CPU 1GRAM配置，阿里云HDD，Vultr为SSD。
