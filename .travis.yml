@@ -19,7 +19,7 @@ install:
 
 script:
 - hexo clean
-- hexo generate
+- hexo generate --debug
 # - hexo d
 after_script:
 - sed -i "s/github_token/${GITHUB_TOKEN}/g" ./_config.yml
