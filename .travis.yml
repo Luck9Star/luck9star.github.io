@@ -1,3 +1,5 @@
+os: osx
+
 branches:
   only:
   - blog
@@ -10,8 +12,7 @@ node_js:
 before_install:
 - git config --global user.name "luck9star"
 - git config --global user.email hadyenvip@gmail.com
-- sudo apt-get update
-- sudo apt-get install -y nasm
+- brew install libtool automake autoconf nasm
 
 install:
 - npm install hexo-cli -g

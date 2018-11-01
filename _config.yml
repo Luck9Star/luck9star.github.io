@@ -135,6 +135,8 @@ filter_optimize:
   # lower means it will be executed first, default is 10
   priority: 12
 
+all_minifier: true
+
 markdown_it_plus:
     highlight: true
     html: true
