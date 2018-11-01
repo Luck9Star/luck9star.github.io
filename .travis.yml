@@ -25,6 +25,7 @@ install:
 - npm install hexo-deployer-git --save
 - cd themes/next
 - npm install
+- cd ../../
 
 script:
 - hexo clean
