@@ -129,5 +129,5 @@ deploy:
   repo: https://github_token@github.com/Luck9Star/luck9star.github.io.git
   branch: master
 - type: git
-  repo: https://coding_token@git.dev.tencent.com/LuckyStar/luck9star.coding.me.git
+  repo: https://LuckyStar:coding_token@git.dev.tencent.com/LuckyStar/luck9star.coding.me.git
   branch: master
