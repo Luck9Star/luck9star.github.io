@@ -7,7 +7,7 @@ title: 倚天的博客
 subtitle:
 description: 偶尔玩玩虚幻4，有时搞搞Unity3D，又懂Docker和Golang脑洞大开的iOS开发者！
 author: 倚天
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 keywords: "iOS, Docker, Swift, 开发, 程序"
 
@@ -15,8 +15,9 @@ keywords: "iOS, Docker, Swift, 开发, 程序"
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hexo.1tian.me
 root: /
+permalink: posts/:abbrlink/
 # permalink: :year/:month/:day/:title/
-# permalink_defaults:
+permalink_defaults:
 
 # Directory
 source_dir: source
@@ -35,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -80,9 +81,6 @@ disqus_shortname: luck9star
 sitemap:
   path: sitemap.xml
 
-lazyload:
-  enable: true
-
 index_generator_plus:
   path: ''
   per_page: 10
@@ -98,7 +96,55 @@ symbols_count_time:
   awl: 4
   wpm: 275
 
-permalink: posts/:abbrlink/
+tag_generator:
+  per_page: 10
+
+category_generator:
+  per_page: 10
+
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
+lazyload:
+  enable: true
+
+filter_optimize:
+  enable: true
+  # remove static resource query string
+  #   - like `?v=1.0.0`
+  remove_query_string: true
+  # remove the surrounding comments in each of the bundled files
+  remove_comments: false
+  css:
+    enable: true
+    # bundle loaded css file into the one
+    bundle: true
+    # use a script block to load css elements dynamically
+    delivery: true
+    # make specific css content inline into the html page
+    #   - only support the full path
+    #   - default is ['css/main.css']
+    inlines:
+    excludes:
+  js:
+    # bundle loaded js file into the one
+    bundle: true
+    excludes:
+  # set the priority of this plugin,
+  # lower means it will be executed first, default is 10
+  priority: 12
+
+markdown_it_plus:
+    highlight: true
+    html: true
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
+    linkify: true
+    typographer:
+    quotes: “”‘’
+    pre_class: highlight
 
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
