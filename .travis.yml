@@ -16,12 +16,12 @@ before_install:
 install:
 - npm install hexo-cli -g
 - npm install hexo --save
-- npm install hexo-deployer-git
+- npm install hexo-deployer-git --save
 - npm install
 
 script:
 - hexo clean
-- hexo generate --debug
+- hexo generate
 # - hexo d
 after_script:
 - sed -i "s/github_token/${GITHUB_TOKEN}/g" ./_config.yml
