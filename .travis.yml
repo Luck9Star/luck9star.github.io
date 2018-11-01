@@ -12,7 +12,7 @@ node_js:
 before_install:
 - git config --global user.name "luck9star"
 - git config --global user.email hadyenvip@gmail.com
-- brew install libtool automake autoconf nasm
+- brew install nasm
 
 install:
 - npm install hexo-cli -g
