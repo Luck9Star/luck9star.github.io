@@ -15,4 +15,4 @@ tags:
 
 先试试看再说吧。
 
-![](http://7xkv17.com1.z0.glb.clouddn.com/ghost/4/6b/de65484d289f7cf6ea7aede496c63.jpg)
+{% asset_img http://7xkv17.com1.z0.glb.clouddn.com/ghost/4/6b/de65484d289f7cf6ea7aede496c63.jpg  %}

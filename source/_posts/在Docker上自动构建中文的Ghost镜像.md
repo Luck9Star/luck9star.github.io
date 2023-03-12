@@ -11,7 +11,7 @@ abbrlink: 58299
 date: 2015-08-05 15:39:36
 ---
 
-![](http://7xkv17.com1.z0.glb.clouddn.com/image/1/cd/f77c151ddfafb60093de14b907eee.jpg)
+{% asset_img http://7xkv17.com1.z0.glb.clouddn.com/image/1/cd/f77c151ddfafb60093de14b907eee.jpg  %}
 
 > 这是一篇记录创建Ghost镜像过程的文章。
 

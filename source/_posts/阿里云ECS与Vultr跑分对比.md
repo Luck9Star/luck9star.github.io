@@ -17,12 +17,12 @@ date: 2015-08-25 12:13:21
 
 下面是UnixBench跑分截图，都在新装的 CentOS 7 的系统下。
 ### 阿里云
-![阿里云UnixBench跑分](http://7xkv17.com1.z0.glb.clouddn.com/ghost/0/2d/5cbb727cfdc89c90dadec8195dcc7.jpg)
+{% asset_img http://7xkv17.com1.z0.glb.clouddn.com/ghost/0/2d/5cbb727cfdc89c90dadec8195dcc7.jpg 阿里云UnixBench跑分 %}
 
 分数很高1417分，而且比Linode同配置高了1倍多。
 
 ### Vultr
-![Vultr UnixBench跑分](http://7xkv17.com1.z0.glb.clouddn.com/ghost/4/2d/b44a7e366f433e7a76eafd454597b.jpg)
+{% asset_img http://7xkv17.com1.z0.glb.clouddn.com/ghost/4/2d/b44a7e366f433e7a76eafd454597b.jpg Vultr UnixBench跑分 %}
 1331分，略逊于阿里云，差距很小。
 
 ### 总结
